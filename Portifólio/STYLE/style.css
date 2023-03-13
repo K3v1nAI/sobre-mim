@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primária: #06283D;
+    --cor-secundária: #DFF6FF;
+    --cor-terciária: #1363DF;
+    --cor-quartenária: #47B5FF;
+
+    --font-primária: 'Krona One', sans-serif;
+    --font-secundária: 'Montserrat', sans-serif;
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primária);
+    color: var(--cor-secundária);
+}
+
+.titulo {
+    color: var(--cor-quartenária);
+
+}
+
+.texto {
+    color: var(--cor-terciária);
+}
+
+.apresentação {
+    padding: 5% 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.montagem {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tamanho_manchete {
+    font-size: 2.25rem;
+    font-family: var(--font-primária);
+}
+
+.tamanho_texto {
+    font-size: 1.5rem;
+    font-family: var(--font-secundária);
+}
+
+.botões {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 28px;
+}
+
+.texto_link {
+    font-family: var(--font-primária);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.cor_botão {
+    border: 3px solid var(--cor-terciária);
+    width: 280px; 
+    text-align: center ;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    color: var(--cor-quartenária);
+    font-family: var(--font-secundária);
+    text-decoration: none;
+}
+
+.cor_botão:hover {
+    background-color: #272727 ;
+}
+
+.rodapé {
+    padding: 24px;
+    color:var(--cor-quartenária);
+    background-color: var(--cor-terciária);
+    text-align: center;
+    font-family: var(--font-secundária);
+    font-size: 1.5rem;
+    font-weight: 400;
+}   
+
+.cabeçalho{
+    padding: 2% 0 0 25% ;
+}
+
+.cabeçalho_menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabeçalho_link {
+    font-size: 1.5rem;
+    font-family: var(--font-secundária);
+    font-weight: 600;
+    color: var(--cor-terciária);
+    text-decoration: none;
+}
+
+.imagem {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 2% 0 0 2%
+}
